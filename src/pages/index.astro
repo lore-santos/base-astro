@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Carousel from '../components/Carousel.astro';
+import Card from '../components/Card.astro';
+import Container from '../components/Container.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<Header/>
+		<Hero/>
+		<Carousel/>
+		<Container class="flex">
+			<Card title='Titulo' body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure necessitatibus saepe voluptatibus reiciendis omnis hic nemo autem, nesciunt explicabo voluptatem? Odio, delectus! Id sapiente iure perferendis dicta, facere ut?'/>
+			<Card title='Titulo' body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure necessitatibus saepe voluptatibus reiciendis omnis hic nemo autem, nesciunt explicabo voluptatem? Odio, delectus! Id sapiente iure perferendis dicta, facere ut?'/>
+			<Card title='Titulo' body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure necessitatibus saepe voluptatibus reiciendis omnis hic nemo autem, nesciunt explicabo voluptatem? Odio, delectus! Id sapiente iure perferendis dicta, facere ut?'/>
+			<Card title='Titulo' body='Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure necessitatibus saepe voluptatibus reiciendis omnis hic nemo autem, nesciunt explicabo voluptatem? Odio, delectus! Id sapiente iure perferendis dicta, facere ut?'/>
+		</Container>
+	</main>
+</Layout>
